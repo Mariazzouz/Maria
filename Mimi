@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entretenimiento Halal por María Azzou</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #28a745;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            margin: 0 1em;
+            text-decoration: none;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            background: #fff;
+            padding: 2em;
+            margin: 1em 0;
+        }
+        footer {
+            background-color: #28a745;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entretenimiento Halal</h1>
+        <p>por María Azzou</p>
+    </header>
+
+    <nav>
+        <a href="#movies">Películas y Series</a>
+        <a href="#nasheeds">Música Islámica</a>
+        <a href="#books">Libros y Cómics</a>
+        <a href="#art">Arte y Cultura</a>
+        <a href="#sports">Deportes</a>
+        <a href="#recipes">Recetas Halal</a>
+        <a href="#news">Noticias y Artículos</a>
+        <a href="#games">Juegos y Actividades</a>
+        <a href="#contact">Contacto</a>
+        <select onchange="changeLanguage(this.value)">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+            <!-- Puedes añadir más opciones de idiomas aquí -->
+        </select>
+    </nav>
+
+    <div class="container">
+        <section id="movies" class="section">
+            <h2>Películas y Series</h2>
+            <p>Reseñas y recomendaciones de películas y series adecuadas para una audiencia musulmana.</p>
+            <ul>
+                <li><strong>Película 1:</strong> Una aventura familiar que promueve valores positivos...</li>
+                <li><strong>Serie 1:</strong> Una serie educativa y entretenida para todas las edades...</li>
+            </ul>
+        </section>
+
+        <section id="nasheeds" class="section">
+            <h2>Música Islámica</h2>
+            <p>Explora el mundo de los nasheeds y música halal.</p>
+            <ul>
+                <li><strong>Nasheed 1:</strong> Un hermoso canto que inspira y eleva el espíritu...</li>
+                <li><strong>Artista 1:</strong> Entrevista con un cantante de nasheeds reconocido...</li>
+            </ul>
+        </section>
+
+        <section id="books" class="section">
+            <h2>Libros y Cómics</h2>
+            <p>Descubre libros y cómics que promuevan valores positivos y educación.</p>
+            <ul>
+                <li><strong>Libro 1:</strong> Una novela que inspira y educa...</li>
+                <li><strong>Cómic 1:</strong> Historias ilustradas para niños y adultos...</li>
+            </ul>
+        </section>
+
+        <section id="art" class="section">
+            <h2>Arte y Cultura</h2>
+            <p>Artículos sobre arte islámico y eventos culturales.</p>
+            <ul>
+                <li><strong>Arte 1:</strong> La belleza de la caligrafía islámica...</li>
+                <li><strong>Cultura 1:</strong> Exposición de arte islámico en tu ciudad...</li>
+            </ul>
+        </section>
+
+        <section id="sports" class="section">
+            <h2>Deportes</h2>
+            <p>Noticias y artículos sobre deportes populares y actividades saludables.</p>
+            <ul>
+                <li><strong>Deporte 1:</strong> Resultados del último torneo de fútbol...</li>
+                <li><strong>Actividad 1:</strong> Consejos para mantenerse activo y saludable...</li>
+            </ul>
+        </section>
+
+        <section id="recipes" class="section">
+            <h2>Recetas Halal</h2>
+            <p>Recetas deliciosas y saludables que cumplen con los estándares halal.</p>
+            <ul>
+                <li><strong>Receta 1:</strong> Un plato tradicional que es fácil de preparar...</li>
+                <li><strong>Consejo 1:</strong> Cómo mantener una dieta equilibrada y halal...</li>
+            </ul>
+        </section>
+
+        <section id="news" class="section">
+            <h2>Noticias y Artículos</h2>
+            <p>Noticias actuales y artículos educativos que son de interés general.</p>
+            <ul>
+                <li><strong>Noticia 1:</strong> Un avance significativo en la ciencia y tecnología...</li>
+                <li><strong>Artículo 1:</strong> Reflexiones sobre los valores islámicos en la vida moderna...</li>
+            </ul>
+        </section>
+
+        <section id="games" class="section">
+            <h2>Juegos y Actividades</h2>
+            <p>Recomendaciones de juegos y actividades recreativas adecuadas para todos.</p>
+            <ul>
+                <li><strong>Juego 1:</strong> Un juego educativo y divertido para niños...</li>
+                <li><strong>Actividad 1:</strong> Ideas para actividades familiares y comunitarias...</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <p>Puedes ponerte en contacto conmigo a través de las siguientes plataformas:</p>
+            <ul>
+                <li>Email: <a href="mailto:mariaazzou@example.com">mariaazzou@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/mariaazzou">linkedin.com/in/mariaazzou</a></li>
+                <li>Twitter: <a href="https://twitter.com/mariaazzou">@mariaazzou</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 María Azzou. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function changeLanguage(language) {
+            // Aquí puedes implementar la lógica para cambiar el contenido del sitio web según el idioma seleccionado
+            // Por simplicidad, este ejemplo solo incluye el cambio de idioma en el menú de navegación
+            // Pero puedes extender esto para cambiar el contenido de las secciones según el idioma seleccionado
+            // Por ejemplo, mostrando contenido en árabe si se selecciona el idioma "ar"
+            alert(`Cambiar contenido a ${language}`);
+        }
+    </script>
+</body>
+</html>
